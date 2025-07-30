@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: 18
 
+      - name: 🔧 Enable Corepack
+        run: corepack enable
+
       - name: 📦 Install dependencies
         run: yarn install
 
