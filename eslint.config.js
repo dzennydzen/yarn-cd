@@ -23,7 +23,7 @@ export default [
     rules: {
       ...js.configs.recommended.rules,  // Базовые рекомендованные правила
       'no-undef': 'off', // Отключаем для тестовых глобалов
-      'no-unused-expressions': 'off',
+      'no-unused-expressions': 'warning',
       // Правила для пробелов и табов (мягкие)
       'no-trailing-spaces': 'error',     // Ошибка на пробелы в конце строк
       'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'], // Разрешает табы с выравниванием пробелами
