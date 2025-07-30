@@ -1,6 +1,7 @@
 {
   "name": "yarn-cd",
   "packageManager": "yarn@4.9.1",
+  "type": "module",
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint .",
